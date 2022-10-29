@@ -3,7 +3,7 @@ import sveltePlugin from "esbuild-svelte";
 
 esbuild
     .build({
-        entryPoints: ["src/main.js"],
+        entryPoints: ["src/home.js"],
         mainFields: ["svelte", "browser", "module", "main"],
         bundle: true,
         minify: true,

@@ -1,0 +1,26 @@
+@font-face {
+    font-family: "Quicksand";
+    src: url("fonts/Quicksand-VariableFont_wght.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Noto Serif";
+    src: url("fonts/NotoSerif-Bold.ttf") format("truetype");
+}
+
+h1.headline {
+    --cyan: #0af;
+    font-family: "Quicksand", serif;
+    font-weight: bold;
+    font-variant: small-caps;
+    font-size: 3rem;
+    color: var(--cyan);
+    border-bottom: 1px solid var(--cyan);
+    margin: 0.5rem;
+}
+
+h3.headline {
+    font-family: "Noto Serif", serif;
+    font-weight: bold;
+    font-size: 2rem;
+    text-decoration: underline;
+}

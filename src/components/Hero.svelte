@@ -1,6 +1,5 @@
 <script>
     import src from '../assets/engine.png';
-    console.log(src);
 </script>
 <div class="hero-container center" id="home">
 <div class="hero">

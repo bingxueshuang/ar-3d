@@ -1,0 +1,97 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+    height: 100%;
+}
+*, *::after, *::before {
+    box-sizing: inherit;
+}
+button[slot="ar-button"] {
+    background-color: white;
+    border-radius: 8px;
+    border: none;
+    position: absolute;
+    bottom: 16px;
+    right: 16px;
+}
+button[slot="ar-button"] img {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+body {
+    margin: 0;
+    display: block;
+    min-height: 100vh;
+    height: 100%;
+}
+.model-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+model-viewer {
+    width: 80vw;
+    height: 80vh;
+    border: 1px solid darkblue;
+    border-radius: 1rem;
+}
+h1 {
+    font-size: 2rem;
+}
+p, h1, h2, h3 {
+    padding: 1rem;
+    margin: 0;
+}
+
+.dot {
+    display: block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: none;
+    box-sizing: border-box;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+    background: #fff;
+    pointer-events: none;
+    --min-hotspot-opacity: 0;
+}
+
+.dim {
+    background: #fff;
+    border-radius: 4px;
+    border: none;
+    box-sizing: border-box;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+    color: rgba(0, 0, 0, 0.8);
+    display: block;
+    font-family: Futura, Helvetica Neue, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    max-width: 128px;
+    overflow-wrap: break-word;
+    padding: 0.5em 1em;
+    position: absolute;
+    width: max-content;
+    height: max-content;
+    transform: translate3d(-50%, -50%, 0);
+    pointer-events: none;
+    --min-hotspot-opacity: 0;
+}
+
+.show {
+    --min-hotspot-opacity: 1;
+}
+
+.hide {
+    display: none;
+}
+/* This keeps child nodes hidden while the element loads */
+:not(:defined) > * {
+    display: none;
+}
+.icon-new {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}

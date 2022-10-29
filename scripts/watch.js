@@ -8,7 +8,8 @@ esbuild
         bundle: true,
         outdir: "dist",
         loader: {
-            '.png': 'file'
+            '.png': 'file',
+            '.jpeg': 'file'
         },
         publicPath: '/dist/',
         plugins: [sveltePlugin()],

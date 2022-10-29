@@ -3,6 +3,7 @@
     import Hero from "./components/Hero.svelte";
     import About from "./components/About.svelte";
     import Services from "./components/Services.svelte";
+    import Models from "./components/Models.svelte";
 </script>
 
 <Header />
@@ -10,6 +11,7 @@
     <Hero />
     <About />
     <Services />
+    <Models />
 </main>
 
 <style>
@@ -29,5 +31,9 @@
     }
     main {
         margin-top: var(--header-height);
+        display: flex;
+        flex-direction: column;
+        /*align-items: stretch; * default */
+        gap: 5rem;
     }
 </style>

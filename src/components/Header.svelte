@@ -1,6 +1,6 @@
 <script>
-    import Link from "./header/Link.svelte";
-    import MenuButton from "./header/MenuButton.svelte";
+    import Link from "./internals/Link.svelte";
+    import MenuButton from "./internals/MenuButton.svelte";
     import src from "../assets/logo_100x100.png";
     let menuShown = false;
     const toggle = (event) => {
@@ -60,6 +60,7 @@
         flex-direction: row;
         justify-content: space-evenly;
         align-items: center;
+        z-index: 5;
 
         height: var(--header-height, 4rem);
         padding: 0.5rem;

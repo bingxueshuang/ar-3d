@@ -25,11 +25,15 @@
         height: calc(80vh - var(--header-height, 4rem));
     }
     .hero {
+        --padding: 2rem;
         display: flex;
         flex-direction: row;
-        max-width: 80vw;
+        max-width: calc(80vw - var(--padding));
+        padding: var(--padding);
+        border-radius: 1rem;
         height: min-content;
         align-items: center;
+        box-shadow: var(--secondary) 0 0 1px 2px;
     }
     img {
         height: 15rem;

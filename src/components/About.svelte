@@ -1,6 +1,6 @@
 <script>
     import src from '../assets/gears.png';
-    import TwoCol from "./TwoCol.svelte";
+    import TwoCol from "./internals/TwoCol.svelte";
 </script>
 
 <TwoCol id="about" heading="About" subHeading="Project Vision">

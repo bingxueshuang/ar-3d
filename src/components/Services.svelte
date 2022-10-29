@@ -1,6 +1,6 @@
 <script>
-    import TwoCol from "./TwoCol.svelte";
-    import Card from "./Card.svelte";
+    import TwoCol from "./internals/TwoCol.svelte";
+    import Card from "./internals/Card.svelte";
     import box from '../assets/box.png';
     import museum from '../assets/museum.png';
 </script>

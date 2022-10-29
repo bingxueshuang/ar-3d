@@ -1,1 +1,5 @@
-<h2>Hello World</h2>
+<script>
+    import Header from "./components/Header.svelte";
+</script>
+
+<Header />

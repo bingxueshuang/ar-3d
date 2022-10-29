@@ -5,6 +5,7 @@
   "description": "3d model viewer in augmented reality",
   "main": "index.js",
   "scripts": {
+    "clear:dist": "rm -rf dist/",
     "build": "node scripts/build.js",
     "watch": "node scripts/watch.js",
     "test": "echo \"Error: no test specified\" && exit 1"

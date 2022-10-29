@@ -1,26 +1,47 @@
 <script>
+    import chair from '../assets/chair.png';
+    import cyl from '../assets/2CylinderEngine.png';
     import cengg from '../assets/cengg.jpeg';
-    import tfan from '../assets/turbofan.jpeg';
-    import v8 from '../assets/v8.jpeg';
+    import cubes from '../assets/textureCube.png';
+    import catengg from '../assets/catEngine.png';
+    import turbofan from '../assets/turbofan.jpeg';
     import Figure from "./internals/Figure.svelte";
     const mlist = [
         {
             id: 'chair',
-            name: 'Chair',
+            name: 'Arm Chair',
+            img: chair,
+            link: './models/chair'
+        },
+        {
+            id: 'cylinder-engine',
+            name: '2 Cylinder Engine',
+            img: cyl,
+            link: './models/cylinder-engine'
+        },
+        {
+            id: 'combustion',
+            name: 'Internal Combustion Engine',
             img: cengg,
-            link: '/models/chair'
+            link: './models/combustion-engine'
         },
         {
             id: 'cubes',
-            name: 'Cubes',
-            img: tfan,
-            link: '/models/cubes'
+            name: 'Colourful cubes',
+            img: cubes,
+            link: './models/cubes'
         },
         {
-            id: 'engine',
-            name: 'Engine',
-            img: v8,
-            link: '/models/engine'
+            id: 'marine-engine',
+            name: 'Marine Engine',
+            img: catengg,
+            link: './models/marine-engine'
+        },
+        {
+            id: 'turbofan',
+            name: 'Jet Engine',
+            img: turbofan,
+            link: './models/turbofan'
         },
     ]
 </script>

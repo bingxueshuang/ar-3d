@@ -89,7 +89,7 @@ out
 
 # Nuxt.js build / generate output
 .nuxt
-dist
+# dist # deploy to gh-pages
 
 # Gatsby files
 #.cache/ # commented out since already defined

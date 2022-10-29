@@ -2,7 +2,7 @@
     import src from '../assets/engine.png';
     console.log(src);
 </script>
-<div class="hero-container center">
+<div class="hero-container center" id="home">
 <div class="hero">
     <div class="text">
         <h2>Cachy line</h2>

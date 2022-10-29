@@ -9,7 +9,7 @@
         <img src="/public/logo_200x200.png" alt="ar-3d" />
     </h1>
     <ul role="navigation" class="link-list" id="main-nav" aria-expanded={`${menuShown}`}>
-        <li><Link props={{ href: '#' }}>Home</Link></li>
+        <li><Link props={{ href: '#home' }}>Home</Link></li>
         <li><Link props={{ href: '#about' }}>About</Link></li>
         <li><Link props={{ href: '#services' }}>Services</Link></li>
         <li><Link props={{ href: '#models' }}>AR Models</Link></li>

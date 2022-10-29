@@ -1,6 +1,7 @@
 <script>
     import Link from "./header/Link.svelte";
     import MenuButton from "./header/MenuButton.svelte";
+    import src from "../assets/logo_100x100.png";
     let menuShown = false;
     const toggle = ({ target }) => {
         if (target.closest('a')) {
@@ -11,7 +12,7 @@
 
 <header>
     <h1 class="logo">
-        <img src="/public/logo_200x200.png" alt="ar-3d" />
+        <img {src} alt="ar-3d" />
     </h1>
     <ul role="navigation"
         class="link-list"
@@ -43,7 +44,7 @@
         vertical-align: middle;
 
         height: 100%;
-        aspect-ratio: 1.5;
+        aspect-ratio: 1.2;
     }
     header {
         /* layout */
@@ -54,7 +55,7 @@
 
         height: var(--header-height, 4rem);
         padding: 0.5rem;
-        background-color: #eeecf5;
+        background-color: var(--secondary-dark);
 
         color: var(--secondary);
     }
@@ -73,8 +74,10 @@
     }
     li {
         --bg: transparent;
-        --bg-hover: #fff7;
         font-weight: bold;
+    }
+    li :global(a:hover) {
+        box-shadow: currentColor 0 0 2px 1px;
     }
 
     @media screen and (max-width: 640px) {
@@ -102,6 +105,7 @@
             grid-row: 1;
             padding: 0;
             color: var(--secondary);
+            border: none;
         }
     }
 </style>

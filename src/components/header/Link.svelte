@@ -17,7 +17,4 @@
         padding: 0.5rem;
         line-height: 1rem;
     }
-    a:hover {
-        background-color: var(--bg-hover);
-    }
 </style>

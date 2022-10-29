@@ -15,6 +15,7 @@
         --primary: #fff;
         --on-primary: #ccc;
         --secondary-bg: #fefefe;
+        --secondary-dark: #140e1b;
         --secondary: #9c57e0;
         --on-secondary: #000;
     }

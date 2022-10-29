@@ -9,7 +9,7 @@ const options = {
         '.png': 'file',
         '.jpeg': 'file'
     },
-    publicPath: '/dist/',
+    publicPath: './dist/',
     plugins: [sveltePlugin()],
 };
 

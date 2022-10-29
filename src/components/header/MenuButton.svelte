@@ -1,8 +1,9 @@
 <script>
     export let props = {};
     export let open;
+    export let href='#';
 </script>
-<a {...props} on:click={() => {open = !open }}>
+<a {href} {...props} on:click={() => {open = !open }}>
     {#if open}
         <i class="material-symbols-outlined">close</i>
     {:else}

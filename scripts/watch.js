@@ -7,6 +7,10 @@ esbuild
         mainFields: ["svelte", "browser", "module", "main"],
         bundle: true,
         outdir: "dist",
+        loader: {
+            '.png': 'file'
+        },
+        publicPath: '/dist/',
         plugins: [sveltePlugin()],
         logLevel: "info",
         watch: true

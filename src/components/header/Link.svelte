@@ -1,7 +1,8 @@
 <script>
     export let props = {};
+    export let href = '#';
 </script>
-<a {...props}>
+<a {href} {...props}>
     <slot>Top</slot>
 </a>
 

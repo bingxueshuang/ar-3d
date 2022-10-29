@@ -1,13 +1,13 @@
 <script>
-    import Link from "./Link.svelte";
-    import MenuButton from "./MenuButton.svelte";
+    import Link from "./header/Link.svelte";
+    import MenuButton from "./header/MenuButton.svelte";
     let menuShown = false;
 </script>
 
 <header>
-    <div class="logo">
+    <h1 class="logo">
         <img src="/public/logo_200x200.png" alt="ar-3d" />
-    </div>
+    </h1>
     <ul role="navigation" class="link-list" id="main-nav" aria-expanded={`${menuShown}`}>
         <li><Link props={{ href: '#' }}>Home</Link></li>
         <li><Link props={{ href: '#about' }}>About</Link></li>
@@ -22,6 +22,10 @@
 </header>
 
 <style>
+    h1 {
+        margin: 0;
+        padding: 0;
+    }
     .logo {
         height: 100%;
     }
@@ -39,8 +43,7 @@
         justify-content: space-between;
         align-items: center;
 
-        /*height: var(--header-height, 4rem);*/
-        height: 4rem;
+        height: var(--header-height, 4rem);
         padding: 0.5rem;
         background-color: #eeecf5;
     }

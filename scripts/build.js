@@ -8,6 +8,10 @@ esbuild
         bundle: true,
         minify: true,
         outdir: "dist",
+        loader: {
+            '.png': 'file'
+        },
+        publicPath: '/dist/',
         plugins: [sveltePlugin()],
         logLevel: "error",
     })

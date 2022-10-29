@@ -3,3 +3,9 @@
 </script>
 
 <Header />
+
+<style>
+    :global(:root) {
+        --header-height: 4rem;
+    }
+</style>

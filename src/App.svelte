@@ -2,11 +2,15 @@
     import Header from "./components/Header.svelte";
     import Hero from "./components/Hero.svelte";
     import About from "./components/About.svelte";
+    import Services from "./components/Services.svelte";
 </script>
 
 <Header />
-<Hero />
-<About />
+<main>
+    <Hero />
+    <About />
+    <Services />
+</main>
 
 <style>
     :global(:root) {
@@ -22,5 +26,8 @@
     :global(body) {
         background-color: var(--bg);
         color: var(--on-primary);
+    }
+    main {
+        margin-top: var(--header-height);
     }
 </style>

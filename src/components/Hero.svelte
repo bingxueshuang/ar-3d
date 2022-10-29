@@ -66,7 +66,13 @@
         color: var(--primary);
     }
     a {
-        background-color: #5b21b6;
+        --bg: #5b21b6;
+        background-color: var(--bg);
         font-weight: bold;
+        border: 1px solid currentColor;
+        border-radius: 0.5em;
+    }
+    a:hover {
+        box-shadow: var(--on-primary) 0 0 1px 1px;
     }
 </style>

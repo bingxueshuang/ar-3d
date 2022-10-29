@@ -48,9 +48,13 @@
     }
     header {
         /* layout */
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: space-evenly;
         align-items: center;
 
         height: var(--header-height, 4rem);

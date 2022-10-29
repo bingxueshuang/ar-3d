@@ -5,22 +5,22 @@
     import Figure from "./internals/Figure.svelte";
     const mlist = [
         {
-            id: 'combustion-engine',
-            name: 'Combustion Engine',
+            id: 'chair',
+            name: 'Chair',
             img: cengg,
-            link: '/combustion-engine'
+            link: '/models/chair'
         },
         {
-            id: 'turbofan-engine',
-            name: 'Turbofan Engine',
+            id: 'cubes',
+            name: 'Cubes',
             img: tfan,
-            link: '/turbofan-engine'
+            link: '/models/cubes'
         },
         {
-            id: 'v8-engine',
-            name: 'V8 Engine',
+            id: 'engine',
+            name: 'Engine',
             img: v8,
-            link: '/v8-engine'
+            link: '/models/engine'
         },
     ]
 </script>

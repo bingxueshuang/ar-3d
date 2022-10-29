@@ -62,4 +62,11 @@
         border: 1px solid #000;
     }
     /* theming */
+    h2, a {
+        color: var(--primary);
+    }
+    a {
+        background-color: #5b21b6;
+        font-weight: bold;
+    }
 </style>

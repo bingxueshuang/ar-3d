@@ -2,13 +2,22 @@
     import Link from "./header/Link.svelte";
     import MenuButton from "./header/MenuButton.svelte";
     let menuShown = false;
+    const toggle = ({ target }) => {
+        if (target.closest('a')) {
+            menuShown = !menuShown;
+        }
+    }
 </script>
 
 <header>
     <h1 class="logo">
         <img src="/public/logo_200x200.png" alt="ar-3d" />
     </h1>
-    <ul role="navigation" class="link-list" id="main-nav" aria-expanded={`${menuShown}`}>
+    <ul role="navigation"
+        class="link-list"
+        id="main-nav"
+        on:click={toggle}
+        aria-expanded={`${menuShown}`}>
         <li><Link props={{ href: '#home' }}>Home</Link></li>
         <li><Link props={{ href: '#about' }}>About</Link></li>
         <li><Link props={{ href: '#services' }}>Services</Link></li>
@@ -46,6 +55,8 @@
         height: var(--header-height, 4rem);
         padding: 0.5rem;
         background-color: #eeecf5;
+
+        color: var(--secondary);
     }
     .link-list {
         display: grid;
@@ -63,6 +74,7 @@
     li {
         --bg: transparent;
         --bg-hover: #fff7;
+        font-weight: bold;
     }
 
     @media screen and (max-width: 640px) {
@@ -74,10 +86,12 @@
             right: 0.5rem;
         }
         li {
-            padding: 0.5rem;
+            /*padding: 0.5rem;*/
             border-bottom: 1px solid #eee;
             --bg: #fefefe;
             --bg-hover: #fafafa;
+            color: #000;
+            font-weight: normal;
         }
         [aria-expanded="false"] li {
             display: none;
@@ -87,6 +101,7 @@
             display: block;
             grid-row: 1;
             padding: 0;
+            color: var(--secondary);
         }
     }
 </style>

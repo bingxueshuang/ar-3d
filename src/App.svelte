@@ -4,6 +4,7 @@
     import About from "./components/About.svelte";
     import Services from "./components/Services.svelte";
     import Models from "./components/Models.svelte";
+    import Contact from "./components/Contact.svelte";
 </script>
 
 <Header />
@@ -12,6 +13,7 @@
     <About />
     <Services />
     <Models />
+    <Contact />
 </main>
 
 <style>
@@ -24,6 +26,9 @@
         --secondary-dark: #140e1b;
         --secondary: #9c57e0;
         --on-secondary: #000;
+    }
+    :global(html) {
+        scroll-behavior: smooth;
     }
     :global(body) {
         background-color: var(--bg);

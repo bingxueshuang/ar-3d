@@ -36,4 +36,8 @@
         border: 1px solid var(--border-color);
         margin: 0 auto;
     }
+    h4 {
+        border-bottom: 1px solid #aaa;
+        padding-bottom: 1rem;
+    }
 </style>

@@ -11,7 +11,7 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "esbuild": "^0.15.12",
     "esbuild-svelte": "^0.7.1",

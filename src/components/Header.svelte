@@ -3,9 +3,13 @@
     import MenuButton from "./header/MenuButton.svelte";
     import src from "../assets/logo_100x100.png";
     let menuShown = false;
-    const toggle = ({ target }) => {
+    const toggle = (event) => {
+        const { target } = event;
         if (target.closest('a')) {
             menuShown = !menuShown;
+        }
+        if (target.closest('.menu-button')) {
+            event.preventDefault();
         }
     }
 </script>

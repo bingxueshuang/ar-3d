@@ -4,7 +4,7 @@
 <div {id} class="container">
     <div class="parent">
         <h2>{heading}</h2>
-        <h3>{subHeading}</h3>
+        <h3 class="subHeading">{subHeading}</h3>
         <div class="two-column">
             <slot name="left"></slot>
             <slot name="right"></slot>

@@ -28,7 +28,7 @@
 
 <style>
     .image-icon {
-        font-size: 10rem;
+        font-size: 8rem;
     }
     .card-container :global(.image) {
         scale: 0.8;

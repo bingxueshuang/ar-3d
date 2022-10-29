@@ -9,7 +9,7 @@
     <div slot="left" class="card-container">
         <Card heading="One">
             <img slot="image" src={box} alt="box" />
-            <div slot="content">
+            <div slot="content" class="text-content">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.
                 Praesent libero. Sed cursus ante dapibus diam.
                 Sed nisi. Nulla quis sem at nibh elementum imperdiet.
@@ -19,7 +19,7 @@
     <div slot="right" class="card-container">
         <Card heading="Two">
             <img slot="image" src={museum} alt="museum" />
-            <div slot="content">
+            <div slot="content" class="text-content">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.
                 Praesent libero. Sed cursus ante dapibus diam.
                 Sed nisi. Nulla quis sem at nibh elementum imperdiet.
@@ -47,5 +47,8 @@
         position: relative;
         top: -3rem;
         margin-bottom: -3rem;
+    }
+    .text-content {
+        max-width: 20rem;
     }
 </style>

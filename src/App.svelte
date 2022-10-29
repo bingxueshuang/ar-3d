@@ -5,6 +5,7 @@
     import Services from "./components/Services.svelte";
     import Models from "./components/Models.svelte";
     import Contact from "./components/Contact.svelte";
+    import Footer from "./components/Footer.svelte";
 </script>
 
 <Header />
@@ -15,6 +16,7 @@
     <Models />
     <Contact />
 </main>
+<Footer />
 
 <style>
     :global(:root) {
@@ -40,5 +42,9 @@
         flex-direction: column;
         /*align-items: stretch; * default */
         gap: 5rem;
+        padding-bottom: 2rem;
+    }
+    main > :global(div) {
+        scroll-margin-top: var(--header-height);
     }
 </style>

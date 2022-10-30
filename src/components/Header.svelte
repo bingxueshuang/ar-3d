@@ -94,8 +94,8 @@
             grid-auto-flow: row;
             gap: 0;
             position: absolute;
-            top: 0.5rem;
-            right: 0.5rem;
+            top: 1rem;
+            right: 1rem;
         }
         li {
             /*padding: 0.5rem;*/
@@ -104,6 +104,7 @@
             --bg-hover: #fafafa;
             color: #000;
             font-weight: normal;
+            --width-full: 100%;
         }
         [aria-expanded="false"] li {
             display: none;
@@ -115,6 +116,7 @@
             padding: 0;
             color: var(--secondary);
             border: none;
+            --width-full: auto;
         }
     }
 </style>

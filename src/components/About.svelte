@@ -6,12 +6,14 @@
 <TwoCol id="about" heading="About" subHeading="Project Vision">
     <img {src} alt="pattern design" slot="left" />
     <div class="text" slot="right">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.
-        Praesent libero. Sed cursus ante dapibus diam.
-        Sed nisi. Nulla quis sem at nibh elementum imperdiet.
-        Duis sagittis ipsum. Praesent mauris.
-        Sed nisi. Nulla quis sem at nibh elementum imperdiet.
-        Duis sagittis ipsum. Praesent mauris.
+        Currently, developing applications in augmented reality is
+        touch due to lack of resources for the developers.
+        Our vision is to have an Augmented Reality API
+        which allows easy development of AR applications.
+        Through this API we should be able to access some
+        important features for AR, like managing virtual objects,
+        analyzing images or rendering virtual objects
+        and real images on any display.
     </div>
 </TwoCol>
 <style>

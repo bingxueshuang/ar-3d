@@ -5,7 +5,7 @@
 
 <TwoCol id="contact" heading="Contact" subHeading="Contributors">
     <div slot="left" class="card-container">
-        <Card heading="Person A" subHeading="Student">
+        <Card heading="Jalondhara Jatin" subHeading="Student">
             <span slot="image" class="material-symbols-outlined image-icon">
                 person
             </span>
@@ -15,7 +15,7 @@
         </Card>
     </div>
     <div slot="right" class="card-container">
-        <Card heading="Person B" subHeading="Student">
+        <Card heading="Manojna K P" subHeading="Student">
             <span slot="image" class="material-symbols-outlined image-icon">
                 person
             </span>

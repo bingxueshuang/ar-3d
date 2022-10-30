@@ -12,7 +12,7 @@
         color: inherit;
         background-color: var(--bg);
         vertical-align: middle;
-        width: 100%;
+        width: var(--width-full, auto);
         display: inline-block;
         padding: 0.5rem;
         line-height: 1rem;

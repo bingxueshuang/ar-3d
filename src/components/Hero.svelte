@@ -4,12 +4,11 @@
 <div class="hero-container center" id="home">
 <div class="hero">
     <div class="text">
-        <h2>Cachy line</h2>
+        <h2>AR-3D</h2>
         <div class="desc">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.
-            Praesent libero. Sed cursus ante dapibus diam.
-            Sed nisi. Nulla quis sem at nibh elementum imperdiet.
-            Duis sagittis ipsum. Praesent mauris.
+            View 3D models in your own space using Augmented Reality.
+            Change the angle of vision, scale of the model or the position
+            of the model everything at your fingertips. Try AR-3D.
         </div>
         <a href="#models" role="button">Get started</a>
     </div>

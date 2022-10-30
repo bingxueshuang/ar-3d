@@ -24,6 +24,7 @@
     :global(body) {
         background-color: var(--bg);
         color: var(--on-primary);
+        font-size: 1.2rem;
     }
     :global(main) {
         margin-top: var(--header-height);

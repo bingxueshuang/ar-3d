@@ -8,6 +8,7 @@
     "clear:dist": "rm -rf dist/",
     "build": "node scripts/build.js",
     "watch": "node scripts/watch.js",
+    "start": "http-server -c-1 -p 8080 .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -16,6 +17,7 @@
   "devDependencies": {
     "esbuild": "^0.15.12",
     "esbuild-svelte": "^0.7.1",
+    "http-server": "^14.1.1",
     "svelte": "^3.52.0"
   }
 }

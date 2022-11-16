@@ -18,7 +18,7 @@
 </TwoCol>
 <style>
     img, .text {
-        width: 15rem;
+        width: 20rem;
     }
     @media (max-width: 720px) {
         .text {
